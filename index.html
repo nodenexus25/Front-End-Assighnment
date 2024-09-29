@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-------------------------------------------- Sidebar ----------------------------------------->
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>Atomic<span class="danger"></span>House</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons">close</span>
+                </div>
+            </div>
+    
+            <div class="sidebar">
+                <!-- Category 1: Main -->
+                <h3>Main</h3>
+                <a href="#">
+                    <span class="material-icons">mail_outline</span>
+                    <h3>Inbox</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">settings</span>
+                    <h3>Settings</h3>
+                </a>
+    
+                <!-- Category 2: Board -->
+                <h3>Board</h3>
+                <a href="#">
+                    <span class="material-icons">web</span>
+                    <h3>Website Design</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">smartphone</span>
+                    <h3>Phone Design</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">folder</span>
+                    <h3>Folder</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">folder</span>
+                    <h3>Folder</h3>
+                </a>
+            </div>
+        </aside>
+    </div>
+    
+
+        <!-- Main-Section -->
+
+            <main>
+                <!-- <h1></h1> -->
+
+                <div class="date">
+                    <input type="date">
+                </div>
+
+
+                    
+
+                <div class="right">
+                    <div class="top">
+                        <button id="menu-btn">
+                            <span class="material-icons">menu</span>
+                        </button>
+                        <div class="theme-toggler">
+                            <span class="material-icons active">light_mode</span>
+                            <span class="material-icons">dark_mode</span>
+                        </div>
+                        <div class="profile">
+                            <div class="info">
+                                <p>Hey,<b>Yuvraj</b> </p>
+                                <small class="text-muted">Admin</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="profile.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END OF TOP -->
+
+                    <!-- cards -->
+                      <!-- Card Container -->
+    <div class="card-container">
+        <div class="card social-media">
+          <h3>Social Media</h3>
+          <ul>
+            <li><img src="instagram.jpeg" alt="Instagram"> Instagram Posts</li>
+            <li><img src="youtube.png" alt="YouTube"> YouTube Channel YY</li>
+            <li><img src="facebook.jpeg" alt="Facebook"> Anil Kapoor Posts</li>
+            <li><img src="twitter.png" alt="Twitter"> Tweet - Narendra Modi</li>
+            <li><img src="pinterest.jpeg" alt="Pinterest"> Pinterest - Images</li>
+            <li><img src="reddit.png" alt="Reddit"> Reddit - Hello</li>
+            <li><img src="linkedin.png" alt="LinkedIn"> LinkedIn - New Post</li>
+          </ul>
+        </div>
+  
+        <div class="card personal">
+            <h3>
+                <i class="bi bi-file-earmark-person"></i>
+                Personal
+            </h3>
+          <ul>
+            <li><img src="instagram.jpeg" alt="Instagram"> Instagram Posts</li>
+            <li><img src="youtube.png" alt="YouTube"> YouTube Channel YY</li>
+            <li><img src="facebook.jpeg" alt="Facebook"> Anil Kapoor Posts</li>
+            <li><img src="twitter.png" alt="Twitter"> Tweet - Narendra Modi</li>
+            <li><img src="pinterest.jpeg" alt="Pinterest"> Pinterest - Images</li>
+            <li><img src="reddit.png" alt="Reddit"> Reddit - Hello</li>
+            <li><img src="linkedin.png" alt="LinkedIn"> LinkedIn - New Post</li>
+          </ul>
+        </div>
+  
+        <div class="card trending">
+          <h3>Trending</h3>
+          <ul>
+            <<li><img src="instagram.jpeg" alt="Instagram"> Instagram Posts</li>
+            <li><img src="youtube.png" alt="YouTube"> YouTube Channel YY</li>
+            <li><img src="facebook.jpeg" alt="Facebook"> Anil Kapoor Posts</li>
+            <li><img src="twitter.png" alt="Twitter"> Tweet - Narendra Modi</li>
+            <li><img src="pinterest.jpeg" alt="Pinterest"> Pinterest - Images</li>
+            <li><img src="reddit.png" alt="Reddit"> Reddit - Hello</li>
+            <li><img src="linkedin.png" alt="LinkedIn"> LinkedIn - New Post</li>
+          </ul>
+        </div>
+  
+        <div class="card favorites">
+          <h3>My Favorites</h3>
+          <ul>
+            <li><img src="instagram.jpeg" alt="Instagram"> Instagram Posts</li>
+            <li><img src="youtube.png" alt="YouTube"> YouTube Channel YY</li>
+            <li><img src="facebook.jpeg" alt="Facebook"> Anil Kapoor Posts</li>
+            <li><img src="twitter.png" alt="Twitter"> Tweet - Narendra Modi</li>
+            <li><img src="pinterest.jpeg" alt="Pinterest"> Pinterest - Images</li>
+            <li><img src="reddit.png" alt="Reddit"> Reddit - Hello</li>
+            <li><img src="linkedin.png" alt="LinkedIn"> LinkedIn - New Post</li>
+          </ul>
+        </div>
+
+
+        <!-- search bar -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search">
+            <i class="search-icon"></i> <!-- You can replace this with a search icon from an icon library -->
+        </div>
+
+        <!-- share icon -->
+        <div class="header-icons">
+            <!-- Profile Picture with Notification Icon -->
+            
+        
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="icon-btn" title="Share">
+                    <i class="fa fa-share"></i> <!-- Font Awesome icon for share -->
+                </button>
+                <button class="icon-btn" title="Filter">
+                    <i class="fa fa-filter"></i> <!-- Font Awesome icon for filter -->
+                </button>
+                <button class="icon-btn" title="Settings">
+                    <i class="fa fa-cog"></i> <!-- Font Awesome icon for settings -->
+                </button>
+                <button class="icon-btn" title="View">
+                    <i class="fa fa-eye"></i> <!-- Font Awesome icon for view -->
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+                  
+    <!-- Link to the JavaScript file -->
+    <script src="A:\social media dashboard\index.js"></script>
+</body>
+</html>
